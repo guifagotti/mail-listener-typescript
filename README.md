@@ -10,7 +10,7 @@ Based on existing libraries, it will be completely rewritten and typed.
 
 Install
 
-`mail-listener-typescript`
+`npm i mail-listener-typescript`
 
 ```javascript
 
