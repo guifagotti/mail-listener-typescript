@@ -1,0 +1,31 @@
+{
+  "name": "mail-listener-typescript",
+  "version": "1.0.9",
+  "description": "TypeScript Mail listener library for node.js. Get notification when new email arrived.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guifagotti/mail-listener-typescript.git"
+  },
+  "author": "Guilherme Fagotti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guifagotti/mail-listener-typescript/issues"
+  },
+  "homepage": "https://github.com/guifagotti/mail-listener-typescript#readme",
+  "dependencies": {
+    "async": "^3.2.1",
+    "imap": "^0.8.19",
+    "mailparser": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.2"
+  }
+}
